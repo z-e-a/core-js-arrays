@@ -197,6 +197,7 @@ function isValueEqualsIndex(arr) {
  */
 function insertItem(arr, item, index) {
   arr.splice(index, 0, item);
+  return arr;
 }
 
 /**
